@@ -4,9 +4,9 @@
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer 15 specific business problems based on the dataset. Through this analysis, I explored content distribution, ratings, release trends, and categorized content based on specific keywords and criteria.
 ## Business Problems Solved
 ### Content Count: Count the total number of Movies vs TV Shows.
-'''sql
+...sql 
 select type, count(*) total from netflix group by type;
-'''
+...
 ### Common Ratings: Find the most common rating for movies and TV shows.
 
 ### Yearly Releases: List all movies released in a specific year (e.g., 2020).
